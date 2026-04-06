@@ -3,9 +3,597 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Gokulakrishnan Muthusamy — Senior Backend Engineer</title>
+    <meta name="description" content="Portfolio of Gokulakrishnan Muthusamy — Senior Backend Engineer with 4+ years of experience designing scalable, AI-driven backend systems and data platforms.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>hello Gokul</h1>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">GM<span class="logo-dot">.</span></a>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#awards">Awards</a></li>
+                <li><a href="#contact" class="nav-cta">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-bg-grid"></div>
+        <div class="hero-glow hero-glow-1"></div>
+        <div class="hero-glow hero-glow-2"></div>
+        <div class="container hero-content">
+            <div class="hero-badge">
+                <span class="badge-dot"></span>
+                Available for opportunities
+            </div>
+            <h1 class="hero-title">
+                <span class="hero-greeting">Hi, I'm</span>
+                <span class="hero-name">Gokulakrishnan<br>Muthusamy</span>
+            </h1>
+            <p class="hero-subtitle">Senior Backend Engineer</p>
+            <p class="hero-description">
+                4+ years of experience designing <strong>scalable, AI-driven backend systems</strong> and data platforms. 
+                Specialized in building AI-native products using LLMs, RAG pipelines, TTS, STT and event-driven microservices.
+            </p>
+            <div class="hero-actions">
+                <a href="#experience" class="btn btn-primary">
+                    <span>View My Work</span>
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17l9.2-9.2M17 17V7.8M17 7.8H7.8"/></svg>
+                </a>
+                <a href="#contact" class="btn btn-outline">Get In Touch</a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-number">4+</span>
+                    <span class="stat-label">Years Experience</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <span class="stat-number">4</span>
+                    <span class="stat-label">Companies</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <span class="stat-number">IIT</span>
+                    <span class="stat-label">Madras BS</span>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">01 — About</span>
+                <h2 class="section-title">About Me</h2>
+            </div>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>I'm a Senior Backend Engineer with strong expertise in <strong>PostgreSQL schema design</strong>, <strong>performance optimization</strong>, and <strong>cloud-native deployments</strong> for high-volume business workflows.</p>
+                    <p>My core strengths include building orchestration layers integrating LLM APIs, RAG pipelines, TTS/STT modules with human-in-the-loop validation workflows. I'm passionate about designing containerized microservices using Docker with CI/CD pipelines for scalable cloud deployment.</p>
+                    <p>Beyond engineering, I've served as the <strong>Founder & Head of the Techno Cultural fest at IIT Madras BS</strong>, <strong>Academic Affairs Coordinator</strong>, and an <strong>Academic Mentor for Data Structures and Algorithms</strong>.</p>
+                </div>
+                <div class="about-highlights">
+                    <div class="highlight-card">
+                        <div class="highlight-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+                        </div>
+                        <h3>Backend Architecture</h3>
+                        <p>Scalable microservices with FastAPI, Django & Flask</p>
+                    </div>
+                    <div class="highlight-card">
+                        <div class="highlight-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83"/></svg>
+                        </div>
+                        <h3>AI / ML Integration</h3>
+                        <p>LLMs, RAG pipelines, prompt orchestration & TTS/STT</p>
+                    </div>
+                    <div class="highlight-card">
+                        <div class="highlight-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"/><line x1="4" y1="22" x2="4" y2="15"/></svg>
+                        </div>
+                        <h3>Database Expert</h3>
+                        <p>PostgreSQL, query optimization, pgBouncer & schema design</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="section section-dark" id="experience">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">02 — Experience</span>
+                <h2 class="section-title">Work Experience</h2>
+            </div>
+            <div class="timeline">
+                <!-- Articence -->
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <div class="timeline-dot active-dot"></div>
+                        <div class="timeline-line"></div>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div>
+                                <h3 class="timeline-role">Senior Software Engineer</h3>
+                                <p class="timeline-company">Articence Inc, CA</p>
+                            </div>
+                            <span class="timeline-date">Sept 2024 — Present</span>
+                        </div>
+                        <ul class="timeline-details">
+                            <li>Designed and architected an AI-native backend platform for an automated call center using FastAPI, PostgreSQL, and LLM-based orchestration for improving customer engagement.</li>
+                            <li>Built orchestration layers integrating LLM APIs, RAG pipelines, TTS/STT modules with human-in-the-loop validation workflows — reducing manual operations by 30%.</li>
+                            <li>Designed containerized microservices using Docker with CI/CD pipelines for scalable cloud deployment.</li>
+                            <li>Implemented prompt orchestration and structured output parsing to ensure reliable downstream processing with retry and fallback mechanisms for LLM calls.</li>
+                        </ul>
+                        <div class="timeline-tags">
+                            <span class="tag">FastAPI</span>
+                            <span class="tag">PostgreSQL</span>
+                            <span class="tag">LLMs</span>
+                            <span class="tag">RAG</span>
+                            <span class="tag">Docker</span>
+                            <span class="tag">TTS/STT</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- IIT Madras -->
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-line"></div>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div>
+                                <h3 class="timeline-role">Full Stack Developer</h3>
+                                <p class="timeline-company">IIT Madras, Chennai</p>
+                            </div>
+                            <span class="timeline-date">Jan 2024 — April 2024</span>
+                        </div>
+                        <ul class="timeline-details">
+                            <li>Designed and deployed a large-scale mentor-mentee portal serving thousands of users.</li>
+                            <li>Handled complete SDLC — from requirements gathering and UI/UX design to backend API development and cloud deployment.</li>
+                            <li>Contributed to a positive user experience by implementing secure, fast-loading interfaces with VueJS and PostgreSQL.</li>
+                        </ul>
+                        <div class="timeline-tags">
+                            <span class="tag">VueJS</span>
+                            <span class="tag">PostgreSQL</span>
+                            <span class="tag">Full SDLC</span>
+                            <span class="tag">Cloud</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Ascendeum -->
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-line"></div>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div>
+                                <h3 class="timeline-role">Assistant Backend Engineer</h3>
+                                <p class="timeline-company">Ascendeum Pvt Ltd, Delhi</p>
+                            </div>
+                            <span class="timeline-date">May 2023 — Jan 2024</span>
+                        </div>
+                        <ul class="timeline-details">
+                            <li>Optimized backend APIs, reducing load time and improving efficiency by 15%.</li>
+                            <li>Collaborated on "Sight v9" — a high-volume data dashboard, ensuring scalability and performance.</li>
+                            <li>Fixed critical production issues under tight deadlines and contributed to CI/CD improvements.</li>
+                        </ul>
+                        <div class="timeline-tags">
+                            <span class="tag">API Optimization</span>
+                            <span class="tag">Data Dashboard</span>
+                            <span class="tag">CI/CD</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- NSPlus -->
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <div class="timeline-dot"></div>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div>
+                                <h3 class="timeline-role">Python Developer</h3>
+                                <p class="timeline-company">NSPlus Technologies Pvt Ltd, Bangalore</p>
+                            </div>
+                            <span class="timeline-date">Oct 2021 — April 2023</span>
+                        </div>
+                        <div class="project-block">
+                            <h4 class="project-title">Project 1 — Resume Matching Engine</h4>
+                            <ul class="timeline-details">
+                                <li>Developed a resume-matching engine, including data extraction, scoring logic, and database design.</li>
+                                <li>Delivered reusable modules for future integrations and reduced onboarding time for new developers.</li>
+                            </ul>
+                        </div>
+                        <div class="project-block">
+                            <h4 class="project-title">Project 2 — Unified Notification Backend</h4>
+                            <ul class="timeline-details">
+                                <li>Created a unified backend API solution for high-volume notification backend integrating SMS, Email, WhatsApp, Teams, Slack, Jira, etc.</li>
+                                <li>Utilized by all products and websites across the organization.</li>
+                            </ul>
+                        </div>
+                        <div class="timeline-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Django</span>
+                            <span class="tag">NLP</span>
+                            <span class="tag">Notifications</span>
+                            <span class="tag">REST APIs</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Roles & Responsibilities -->
+            <div class="responsibilities-card">
+                <h3 class="resp-title">Core Engineering Responsibilities</h3>
+                <div class="resp-grid">
+                    <div class="resp-item">
+                        <div class="resp-icon">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg>
+                        </div>
+                        <div>
+                            <h4>Schema Design</h4>
+                            <p>Modeled normalized relational schemas and complex entity relationships in PostgreSQL and MySQL for systems involving users, transactions, and analytics.</p>
+                        </div>
+                    </div>
+                    <div class="resp-item">
+                        <div class="resp-icon">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+                        </div>
+                        <div>
+                            <h4>Query Optimization</h4>
+                            <p>Tuned SQL queries using indexes, EXPLAIN ANALYZE, and materialized views. Resolved N+1 query issues in Django ORM. Used pgBouncer for connection pooling.</p>
+                        </div>
+                    </div>
+                    <div class="resp-item">
+                        <div class="resp-icon">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+                        </div>
+                        <div>
+                            <h4>Load Testing</h4>
+                            <p>Designed and executed performance tests using Locust to simulate concurrent users on key API endpoints.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section" id="skills">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">03 — Skills</span>
+                <h2 class="section-title">Technical Skills</h2>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <div class="skill-cat-header">
+                        <div class="skill-cat-icon">
+                            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+                        </div>
+                        <h3>Backend & Architecture</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">FastAPI</span>
+                        <span class="skill-tag">Flask</span>
+                        <span class="skill-tag">Django</span>
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">REST APIs</span>
+                        <span class="skill-tag">Microservices</span>
+                        <span class="skill-tag">Event-driven Systems</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-cat-header">
+                        <div class="skill-cat-icon">
+                            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                        </div>
+                        <h3>Messaging & Async</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Celery</span>
+                        <span class="skill-tag">Kafka</span>
+                        <span class="skill-tag">RabbitMQ</span>
+                        <span class="skill-tag">Webhooks</span>
+                        <span class="skill-tag">WebSockets</span>
+                        <span class="skill-tag">Redis</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-cat-header">
+                        <div class="skill-cat-icon">
+                            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="9" y1="21" x2="9" y2="9"/></svg>
+                        </div>
+                        <h3>Frontend & JS</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">VueJS</span>
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">HTML/CSS</span>
+                        <span class="skill-tag">Bootstrap</span>
+                        <span class="skill-tag">Express.js</span>
+                        <span class="skill-tag">Ajax</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-cat-header">
+                        <div class="skill-cat-icon">
+                            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+                        </div>
+                        <h3>Databases</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">PostgreSQL</span>
+                        <span class="skill-tag">MySQL</span>
+                        <span class="skill-tag">Oracle DB</span>
+                        <span class="skill-tag">SQLite3</span>
+                        <span class="skill-tag">MongoDB</span>
+                        <span class="skill-tag">Redis</span>
+                        <span class="skill-tag">ChromaDB</span>
+                        <span class="skill-tag">PgVector</span>
+                        <span class="skill-tag">Pinecone</span>
+                        <span class="skill-tag">SQLAlchemy</span>
+                        <span class="skill-tag">ORM</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-cat-header">
+                        <div class="skill-cat-icon">
+                            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 010 20 15.3 15.3 0 010-20z"/></svg>
+                        </div>
+                        <h3>CI/CD & DevOps</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">Kubernetes</span>
+                        <span class="skill-tag">Azure DevOps</span>
+                        <span class="skill-tag">GitHub Actions</span>
+                        <span class="skill-tag">Grafana</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-cat-header">
+                        <div class="skill-cat-icon">
+                            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z"/></svg>
+                        </div>
+                        <h3>Other Tools & Skills</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">DSA</span>
+                        <span class="skill-tag">OOP</span>
+                        <span class="skill-tag">Linux Shell</span>
+                        <span class="skill-tag">Pytest</span>
+                        <span class="skill-tag">Playwright</span>
+                        <span class="skill-tag">Pandas</span>
+                        <span class="skill-tag">NumPy</span>
+                        <span class="skill-tag">Matplotlib</span>
+                        <span class="skill-tag">n8n</span>
+                        <span class="skill-tag">Make.com</span>
+                        <span class="skill-tag">Zapier</span>
+                        <span class="skill-tag">SQL</span>
+                        <span class="skill-tag">PL/SQL</span>
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">Shell Scripting</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="section section-dark" id="education">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">04 — Education</span>
+                <h2 class="section-title">Education</h2>
+            </div>
+            <div class="education-grid">
+                <div class="edu-card">
+                    <div class="edu-icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c0 1.66 2.69 3 6 3s6-1.34 6-3v-5"/></svg>
+                    </div>
+                    <div class="edu-info">
+                        <h3>B.S. in Data Science and Applications</h3>
+                        <p class="edu-school">Indian Institute of Technology, Madras</p>
+                        <div class="edu-meta">
+                            <span class="edu-date">Jan 2021 — Present</span>
+                            <span class="edu-score">CGPA: 8.5 / 10</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="edu-card">
+                    <div class="edu-icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c0 1.66 2.69 3 6 3s6-1.34 6-3v-5"/></svg>
+                    </div>
+                    <div class="edu-info">
+                        <h3>B.E. in Mechanical Engineering</h3>
+                        <p class="edu-school">Anna University, Chennai</p>
+                        <div class="edu-meta">
+                            <span class="edu-date">Aug 2016 — June 2021</span>
+                            <span class="edu-score">CGPA: 7.9 / 10</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Awards Section -->
+    <section class="section" id="awards">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">05 — Awards & Certifications</span>
+                <h2 class="section-title">Awards & Certifications</h2>
+            </div>
+            <div class="awards-grid">
+                <div class="award-card">
+                    <div class="award-icon cert">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 15l-2 5l1-3h2l1 3l-2-5z"/><circle cx="12" cy="8" r="6"/></svg>
+                    </div>
+                    <h4>Microsoft Azure AI-900</h4>
+                    <p>Azure AI Fundamentals Certification</p>
+                </div>
+                <div class="award-card">
+                    <div class="award-icon cert">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 15l-2 5l1-3h2l1 3l-2-5z"/><circle cx="12" cy="8" r="6"/></svg>
+                    </div>
+                    <h4>Microsoft Azure PL-900</h4>
+                    <p>Power Platform Fundamentals</p>
+                </div>
+                <div class="award-card">
+                    <div class="award-icon award">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                    </div>
+                    <h4>IIT Madras Diploma</h4>
+                    <p>Diploma in Data Science and Programming</p>
+                </div>
+                <div class="award-card">
+                    <div class="award-icon award">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                    </div>
+                    <h4>Best Flask-VueJS Project</h4>
+                    <p>Best project award in the batch</p>
+                </div>
+                <div class="award-card">
+                    <div class="award-icon role">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4-4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>
+                    </div>
+                    <h4>Academic Mentor</h4>
+                    <p>Mentor for Data Structures and Algorithms</p>
+                </div>
+                <div class="award-card">
+                    <div class="award-icon cert">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 15l-2 5l1-3h2l1 3l-2-5z"/><circle cx="12" cy="8" r="6"/></svg>
+                    </div>
+                    <h4>Coursera — ML Projects</h4>
+                    <p>Structuring Machine Learning Projects</p>
+                </div>
+                <div class="award-card">
+                    <div class="award-icon cert">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 15l-2 5l1-3h2l1 3l-2-5z"/><circle cx="12" cy="8" r="6"/></svg>
+                    </div>
+                    <h4>Coursera — Deep Learning</h4>
+                    <p>Neural Networks and Deep Learning</p>
+                </div>
+            </div>
+
+            <!-- Leadership Roles -->
+            <div class="leadership-section">
+                <h3 class="leadership-title">Leadership & Other Roles</h3>
+                <div class="leadership-grid">
+                    <div class="leadership-card">
+                        <span class="leadership-badge">Founder & Head</span>
+                        <p>Techno Cultural Fest (IIT Madras BS)</p>
+                    </div>
+                    <div class="leadership-card">
+                        <span class="leadership-badge">Coordinator</span>
+                        <p>Academic Affairs Coordinator (IITM BS — 8 months)</p>
+                    </div>
+                    <div class="leadership-card">
+                        <span class="leadership-badge">Secretary</span>
+                        <p>Secretary of Nilgiri House (8 months)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section section-dark" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">06 — Contact</span>
+                <h2 class="section-title">Let's Connect</h2>
+                <p class="section-subtitle">Have a project in mind or want to discuss an opportunity? I'd love to hear from you.</p>
+            </div>
+            <div class="contact-grid">
+                <a href="mailto:gokulakrishnan.msamy@gmail.com" class="contact-card" id="contact-email">
+                    <div class="contact-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                    </div>
+                    <h4>Email</h4>
+                    <p>gokulakrishnan.msamy@gmail.com</p>
+                </a>
+                <a href="tel:+917397413403" class="contact-card" id="contact-phone">
+                    <div class="contact-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+                    </div>
+                    <h4>Phone</h4>
+                    <p>+91 7397413403</p>
+                </a>
+                <a href="https://github.com/gokul-1998" target="_blank" rel="noopener" class="contact-card" id="contact-github">
+                    <div class="contact-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                    </div>
+                    <h4>GitHub</h4>
+                    <p>gokul-1998</p>
+                </a>
+                <a href="https://linkedin.com/in/gokulakrishnan-muthusamy-141a78201" target="_blank" rel="noopener" class="contact-card" id="contact-linkedin">
+                    <div class="contact-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                    </div>
+                    <h4>LinkedIn</h4>
+                    <p>Gokulakrishnan Muthusamy</p>
+                </a>
+                <a href="https://ds.study.iitm.ac.in/student/21F1007026" target="_blank" rel="noopener" class="contact-card" id="contact-iitm">
+                    <div class="contact-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c0 1.66 2.69 3 6 3s6-1.34 6-3v-5"/></svg>
+                    </div>
+                    <h4>IIT Madras Profile</h4>
+                    <p>Student Portal</p>
+                </a>
+            </div>
+            <div class="contact-location">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                <span>Tamil Nadu, India</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <p>&copy; 2026 Gokulakrishnan Muthusamy. Built with passion.</p>
+            <div class="footer-links">
+                <a href="https://github.com/gokul-1998" target="_blank" rel="noopener" aria-label="GitHub">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                </a>
+                <a href="https://linkedin.com/in/gokulakrishnan-muthusamy-141a78201" target="_blank" rel="noopener" aria-label="LinkedIn">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
